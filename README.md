@@ -43,6 +43,12 @@ docker-compose -f <имя docker-compose файла> up -d
 
 5. Перейдите по адресу http://127.0.0.1:8000/docs, чтобы попасть в Swagger
 
+## Запуск тестов
+
+Выполнить в консоли команду:
+
+`python -m pytest test/news_tests.py`
+
 ## Разработка
 
 ### Структура проекта
