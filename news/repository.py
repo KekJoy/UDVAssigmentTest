@@ -1,3 +1,5 @@
+import random
+
 from sqlalchemy import Column, Integer, String, DateTime, Boolean
 
 from database import Base
